@@ -1,0 +1,65 @@
+
+ .grid {
+	width: 100%;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: default default default;
+	display: grid;
+	grid-gap: 3px;
+	font-size: 45px;
+}
+
+img {
+	width:500px; 
+	height: 300px;
+}
+
+.item1{
+	border: black solid 7px;
+	font-size: 45px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.item2{
+	border: black solid 7px;
+	
+}
+.item3{
+	border: black solid 7px;
+
+}
+.item4{
+	border:black solid 7px;
+	grid-column-start: 1;
+	grid-column-end: 3;
+} 
+
+ body {
+	 color: black;
+	 background-color: #d3cffa;
+ }
+ 
+ p {
+	 font-family: arial;
+ }
+ 
+ table {
+	 width: 100%;
+ }
+ 
+ th, td {
+	 border: 5px solid black;
+	 width: 49%;
+	 text-align: center;
+	 height: 400px;
+	 font-size: 30px 
+ }
+  table {
+	  width: 100%;
+  }
+  
+  button {
+	  color: black ;
+  }
+  
+  
+  
